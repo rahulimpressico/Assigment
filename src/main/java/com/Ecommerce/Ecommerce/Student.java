@@ -1,4 +1,4 @@
-package com.Ecommerce.app.registration;
+package com.Ecommerce.Ecommerce;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

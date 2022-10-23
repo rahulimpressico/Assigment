@@ -1,8 +1,5 @@
-package com.Ecommerce.app.registration;
+package com.Ecommerce.Ecommerce;
 
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -16,7 +13,7 @@ public class StudentService {
     private StudentRepository studentRepository;
     
     
-    public List<Student> getAllTopics(){
+    public List<Student> getAllStudents(){
         return studentRepository.findAll();
     }
     
@@ -29,7 +26,7 @@ public class StudentService {
         return studentRepository.save(student);
     }
     
-    public void deleteTopic(Integer id) {
+    public void deleteStudent(Integer id) {
         
         studentRepository.deleteById(id);
     }
