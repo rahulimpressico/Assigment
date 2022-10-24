@@ -1,4 +1,4 @@
-package com.Ecommerce.app.registration;
+package com.Ecommerce.Ecommerce;
 
 import java.util.List;
 import java.util.Optional;
